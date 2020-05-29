@@ -1,0 +1,43 @@
+var zenia, tourus, cyclap, wall
+var wall=createSprite(390,25,25,50)
+
+function (draw){
+create canvas(400,400)
+zenia.collide(wall)
+tourus.collide(wall)
+cyclap.collide(wall)
+zenia();
+tourus();
+cyclap();
+}
+function (zenia){
+var zenia=createSprite(50,25,25,25)
+zenia.velocityX=60
+if (zenia..deforemation>179)&&(zenia.collide(wall))
+zenia.destroy
+}
+function (tourus){
+if zenia.collide(wall){
+var tourus=createSprite(50,25,25,25)
+}
+tourus.velocityX=60
+if (tourus..deforemation>179)&&(tourus.collide(wall))
+tourus.destroy
+}
+function (cyclap){
+if tourus.collide(wall){
+var cyclap=createSprite(50,25,25,25)
+}
+cyclap.velocityX=60
+if (cyclap..deforemation>179)&&(cyclap.collide(wall))
+cyclap.destroy
+}
+
+function (deforemation){
+zenia.deforemation=180
+tourus.deforemation=84
+cyclap.deforemation=134
+}
+
+
+
